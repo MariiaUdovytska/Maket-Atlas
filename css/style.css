@@ -104,3 +104,49 @@ body {
   height: 100%;
   background: url("../img/page_1/fone.png") right/cover no-repeat, linear-gradient(70deg, #cd4381, #e97759);
 }
+
+main {
+  width: 25vw;
+  height: 70vh;
+  margin: 130px auto 0px;
+}
+
+.allbody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.allbody__title {
+  text-align: center;
+}
+
+.allbody__title h1 {
+  font-weight: 600;
+  font-size: 27.8px;
+  line-height: 42px;
+  text-transform: uppercase;
+  letter-spacing: 0.45em;
+  text-shadow: 0px 13px 20px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.allbody__title-img ::after {
+  display: block;
+  content: "";
+  width: 36px;
+  height: 7px;
+  background-color: #ffffff;
+  margin: 19px auto 0px;
+}
