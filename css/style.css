@@ -209,6 +209,16 @@ main {
 .allbody__btns button:hover {
   background-color: #f7c1c7;
   color: #e9486d;
+  border-color: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0px;
+}
+
+.allbody__btns button:focus {
+  border-color: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .allbody__btns-text {

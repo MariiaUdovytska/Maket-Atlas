@@ -106,6 +106,14 @@ main {
   &__btns button:hover {
     background-color: #f7c1c7;
     color: #e9486d;
+    border-color: none;
+    box-shadow: none;
+    border: 0px;
+  }
+
+  &__btns button:focus {
+    border-color: none;
+    box-shadow: none;
   }
 
   &__btns-text {
