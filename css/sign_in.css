@@ -129,6 +129,130 @@ main {
           align-items: center;
 }
 
+@media (max-height: 586px) {
+  .allbody .allbody__footer {
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 490px) {
+  .allbody .allbody__footer a {
+    display: table;
+    margin: 2px auto;
+  }
+  .allbody .allbody__content {
+    max-width: 412px;
+  }
+  .allbody .btn {
+    width: 332px;
+  }
+}
+
+@media (max-width: 482px) {
+  .allbody .allbody__content {
+    max-width: 404px;
+  }
+}
+
+@media (max-width: 474px) {
+  .allbody .allbody__content {
+    max-width: 396px;
+  }
+  .allbody .btn {
+    width: 324px;
+  }
+}
+
+@media (max-width: 466px) {
+  .allbody .allbody__content {
+    max-width: 388px;
+  }
+  .allbody .btn {
+    width: 316px;
+  }
+}
+
+@media (max-width: 458px) {
+  .allbody .allbody__content {
+    max-width: 380px;
+  }
+  .allbody .btn {
+    width: 308px;
+  }
+}
+
+@media (max-width: 450px) {
+  .allbody .allbody__content {
+    max-width: 372px;
+  }
+  .allbody .btn {
+    width: 300px;
+  }
+}
+
+@media (max-width: 442px) {
+  .allbody .allbody__content {
+    max-width: 364px;
+  }
+  .allbody .btn {
+    width: 292px;
+  }
+}
+
+@media (max-width: 434px) {
+  .allbody .allbody__content {
+    max-width: 356px;
+  }
+  .allbody .btn {
+    width: 284px;
+  }
+}
+
+@media (max-width: 426px) {
+  .allbody .allbody__content {
+    max-width: 348px;
+  }
+  .allbody .btn {
+    width: 276px;
+  }
+}
+
+@media (max-width: 417px) {
+  .allbody .allbody__content {
+    max-width: 339px;
+  }
+  .allbody .btn {
+    width: 267px;
+  }
+}
+
+@media (max-width: 408px) {
+  .allbody .allbody__content {
+    max-width: 330px;
+  }
+  .allbody .btn {
+    width: 258px;
+  }
+}
+
+@media (max-width: 399px) {
+  .allbody .allbody__content {
+    max-width: 321px;
+  }
+  .allbody .btn {
+    width: 249px;
+  }
+}
+
+@media (max-width: 389px) {
+  .allbody .allbody__content {
+    max-width: 311px;
+  }
+  .allbody .btn {
+    width: 239px;
+  }
+}
+
 .allbody__title {
   text-align: center;
   font-size: 15px;
@@ -139,8 +263,8 @@ main {
 }
 
 .allbody__content {
-  width: 420px;
-  height: 390px;
+  max-width: 420px;
+  max-height: 390px;
   background-color: #f2f2f2;
   -webkit-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.05);
