@@ -156,6 +156,7 @@ main {
   letter-spacing: 0.025em;
   text-shadow: 0px 13px 27px rgba(0, 0, 0, 0.15);
   color: #444444;
+  margin-bottom: 8px;
 }
 
 .allbody__footer {
@@ -197,6 +198,11 @@ main {
   visibility: visible;
 }
 
+.mb-3 {
+  margin-left: 12px;
+  margin-bottom: 0.5rem !important;
+}
+
 .form-control:focus {
   border-color: none;
   -webkit-box-shadow: none;
@@ -218,7 +224,103 @@ main {
   color: #bbbbbb;
 }
 
+.form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 27px;
+  margin-bottom: 41px;
+}
+
+.form-switch {
+  padding-left: 1.5em;
+  height: 22px;
+}
+
+.form-check-label {
+  font-size: 12.7px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #444444;
+}
+
+.switch {
+  position: relative;
+  margin-right: 0.5em;
+  width: 36px;
+  height: 12px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #dddddd;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 2;
+  bottom: -5px;
+  background-color: #ffffff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:focus {
+  background-color: red;
+}
+
+input:checked + .slider {
+  background-color: #f7c1c7;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #f4327f;
+          box-shadow: 0 0 1px #f4327f;
+}
+
+input:focus + .slider.round:before {
+  background-color: #f4327f;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 .btn {
+  margin-left: -10px;
   font-size: 12.7px;
   font-weight: 500;
   letter-spacing: 0.1em;
