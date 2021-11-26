@@ -317,6 +317,16 @@ main {
   letter-spacing: 0.1em;
 }
 
+.allbody__footer::before {
+  display: block;
+  content: "";
+  width: 400px;
+  height: 2px;
+  margin-top: 2.3em;
+  margin-bottom: 1.1em;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
 .allbody__footer-text {
   color: #ffffff70;
 }
@@ -398,6 +408,14 @@ main {
   border-radius: 6px;
 }
 
+.form-check .form-check-input:checked {
+  width: 24px;
+  height: 23px;
+  background-color: #f4327f;
+  border: none;
+  border-radius: 6px;
+}
+
 .form-check-input:focus {
   border-color: none;
   -webkit-box-shadow: none;
@@ -422,14 +440,6 @@ main {
   font-weight: 600;
   letter-spacing: 0.1em;
   color: #222222;
-}
-
-.form-check .form-check-input:checked {
-  width: 24px;
-  height: 23px;
-  background-color: #f4327f;
-  border: none;
-  border-radius: 6px;
 }
 
 .btn {
