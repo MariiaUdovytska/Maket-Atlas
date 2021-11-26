@@ -129,6 +129,12 @@ main {
           align-items: center;
 }
 
+@media (max-height: 686px) {
+  .allbody .allbody__footer {
+    margin-bottom: 1.1em;
+  }
+}
+
 @media (max-height: 586px) {
   .allbody .allbody__footer {
     margin-top: 18px;
@@ -196,6 +202,14 @@ main {
   }
   .allbody .btn {
     width: 292px;
+  }
+  .allbody .form-check-label a {
+    display: table;
+    margin: 2px auto;
+    line-height: 0px;
+  }
+  .allbody .form-check-label {
+    margin-top: -19px;
   }
 }
 
